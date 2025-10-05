@@ -3,11 +3,12 @@ WARNING: very very bad no good code ahead, proceed with caution.
 
 how to play:
 1. make sure you have rust installed https://rust-lang.org/tools/install/
-2. clone this git repo
-3. run "cargo build --release" on the folder (without the quotation marks)
-4. go to target/release
-5. run "./game" (without the quotation marks)
-6. enjoy my shitty game >;3
+2. run "git clone https://github.com/MikoTheFemboy/rust-game-thingy-idk" on your desired directory (without the quotation marks)
+3. "cd rust-game-thingy" (without the quotation marks)
+4. run "cargo build --release" (without the quotation marks)
+5. cd target/release
+6. run "./game" (without the quotation marks)
+7. enjoy my shitty game >;3
 
 TODO: 1. make code look better
       2. make executable
