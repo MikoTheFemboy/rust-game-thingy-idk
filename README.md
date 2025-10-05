@@ -10,5 +10,12 @@ how to play:
 6. run "./game" (without the quotation marks)
 7. enjoy my shitty game >;3
 
+orrr
+1. make sure you have rust installed https://rust-lang.org/tools/install/
+2. run "git clone https://github.com/MikoTheFemboy/rust-game-thingy-idk" on your desired directory (without the quotation marks)
+3. "cd rust-game-thingy" (without the quotation marks)
+4. "cargo run" (without the quotation marks)
+5. enjoy my shitty game >;3
+
 TODO: 1. make code look better
       2. make executable
