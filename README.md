@@ -7,7 +7,7 @@ how to play:
 3. "cd rust-game-thingy" (without the quotation marks)
 4. run "cargo build --release" (without the quotation marks)
 5. cd target/release
-6. run "./game" (without the quotation marks)
+6. run the executable "./game" for Linux or MacOS. or ".\game.exe" on windows
 7. enjoy my shitty game >;3
 
 orrr
