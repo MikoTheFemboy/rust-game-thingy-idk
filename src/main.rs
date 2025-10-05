@@ -55,24 +55,16 @@ fn action() -> String {
     let mut temp = String::new();
     stdin().read_line(&mut temp).expect("Fail!");
     let trim = temp.trim();
-    if trim == "LIGHT ATTACK"{
-        return "light".to_string();
-    }
-    else if trim == "HEAVY ATTACK"{
-        return "heavy".to_string();
-    }
-    else if trim == "REST"{
-        return "rest".to_string();
-    }
-    else if trim == "Fail!"{
-        return "The problem is here dawg".to_string();
-    }
-    else {
-        if DEBUGMODE == true{
-            return temp.to_string();
+
+    match trim {
+        "LIGHT ATTACK" => return "light".to_string(),
+        "HEAVY ATTACK" => return "heavy".to_string(),
+        "REST" => return "rest".to_string(),
+        _ => if DEBUGMODE == true {
+            return temp.to_string()
         }
         else {
-            return("Something went wrong! turn on debug mode to see!").to_string();
+            return ("Something went wrong! turn on debug mode to see!").to_string();
         }
     }
 }
