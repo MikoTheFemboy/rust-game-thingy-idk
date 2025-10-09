@@ -17,5 +17,4 @@ orrr
 4. ```cargo run```
 5. enjoy my shitty game >;3
 
-TODO: 1. make code look better
-      2. make executable
+TODO: make code look better
